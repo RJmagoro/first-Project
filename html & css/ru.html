@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script>
+            document.write(Date());
+            function validateForm() {
+                var x = document.forms["myForm"]["fname"].value;
+                if (x == "") {
+                    alert("Name must be filled out");
+                    return false;
+                    var x= document.forms["myForm"]["lname"].value;
+                    if(x == "") {
+                        alert("Last Name must be filled out")
+                    }
+                    
+                    
+                }
+            }
+        </script>
+        
+    </head>
+<body>
+
+      <form name="myForm" action="/action_page.php"
+            onsubmit="return validateForm()" method="post">
+         Name: <input type="text" name="fname">
+         <input type="submit" value="Submit">
+         Surname: <input type="text" name="fname"
+     <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

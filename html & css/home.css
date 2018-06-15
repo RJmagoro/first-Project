@@ -1,0 +1,150 @@
+.nav{
+    margin: 10px;
+    height:50px ;
+    background-color:lightblue;
+    box-shadow: 5px 5px 5px blue,5px 5px 5px blue;
+    
+}
+.nav ul li {
+    float: right;
+    color:hotpink;
+    display: block;
+    margin-left: 20px;
+    border: 1px solid;
+    
+
+
+}
+.nav ul li a{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    background-color: lightgrey;
+    
+}
+a:link{
+    color:yellow;
+}
+a:visited{
+    color:white;
+
+}
+.nav ul li a:hover{
+    color: hotpink;
+    background-color:lightcyan;
+
+}
+a:active{
+    color:blue;
+   
+}
+  
+
+
+
+
+h1{
+    
+    text-align: center;
+    color:green;
+    border-radius: 5px;background-color: burlywood;
+    border-radius: 5px 5px 5px;
+    box-shadow: 5px 5px 5px blue,1px 1px 1px blue;
+    width: 50%;
+    
+
+    
+}
+h2{
+    text-align: center;
+    color:green;
+    border-radius: 5px;background-color: lightblue;
+    border-radius: 5px 5px 5px;
+    box-shadow: 5px 5px 5px blue,1px 1px 1px blue;
+
+}
+ta,th,td{
+    border: 5px solid red;
+}
+
+table{
+    margin: auto;
+    width:50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.div1 p{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: orange;
+    
+    
+}
+.div1{
+    margin: auto;
+    width: 50%;
+
+}
+footer{
+    border: 1px groove black;
+    background:mediumslateblue;
+    color:springgreen;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    vertical-align: middle;
+    text-align: center;
+    line-height: normal;
+    padding: 0;
+    
+
+}
+#center{
+    text-align: center;
+    justify-content: center;
+}
+#border{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+#name,#email{
+    width: 100%;
+
+}
+
+#message{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 400px;
+    background-color:cornsilk;
+     
+}
+#sub{
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 2px 2px 2px, blue 2px 2px 2px;
+    
+    background-color:lightskyblue;
+    color:blue;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: cursive;
+    font: bold;
+    
+    
+
+    
+}
+
+
+
